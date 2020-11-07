@@ -55,6 +55,7 @@ function Form(props) {
         }
       }
     }catch(err){
+      setLoading(false)
       setError('Something wrong happen in the server!')
     }
   }
